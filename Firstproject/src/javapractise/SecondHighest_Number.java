@@ -4,7 +4,7 @@ public class SecondHighest_Number {
 
 	public static void main(String[] args) {
 	
-		int number[]= {1,2,4,56,7,8,6,89,90,110};
+		int number[]= {1,2,4,56,7,8,6,89,90,90,110};
 		
 		int s_hst=0;
 		int hst=0;

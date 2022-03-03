@@ -2,6 +2,7 @@ package javapractise;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -31,6 +32,20 @@ public class Dulicate_Num_Delete {
 	List<Integer> final_Number=number.stream().distinct().collect(Collectors.toList());
 	
 	System.out.println(final_Number);
+	
+	
+	int [] arr= {12,13,14,14};
+	
+	HashSet<Integer> set= new LinkedHashSet<>();
+	
+	for(int a : arr) {
+		
+		set.add(a);
+	}
+	System.out.println(set);
 	}
 
+	
+	
+	
 }

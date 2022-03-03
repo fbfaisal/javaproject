@@ -21,15 +21,16 @@ public class Duplicate_number {
 			
 		}
 		
-		System.out.println(set);
+	System.out.println(set);
+		//System.out.println(set);
 		
 		//how to convert set to list
-		ArrayList<Integer> list=new ArrayList<>(set);
+		//ArrayList<Integer> list=new ArrayList<>(set);
 		
-		System.out.println(list);
+		//System.out.println(list);
 		
 		//print array
-		System.out.println(Arrays.toString(arr));
+		//System.out.println(Arrays.toString(arr));
 	}
 
 }

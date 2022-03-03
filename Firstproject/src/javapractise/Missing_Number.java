@@ -17,7 +17,7 @@ public class Missing_Number {
 			
 		}
 		
-		System.out.println(sum);
+		//System.out.println(sum);
 		
 		
 		int sum1=0;
@@ -27,7 +27,7 @@ public class Missing_Number {
 			sum1=sum1+j;
 		}
 		
-		System.out.println(sum1);
+		//System.out.println(sum1);
 		
 		System.out.println(sum1-sum);
 	}

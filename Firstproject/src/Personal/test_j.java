@@ -17,6 +17,13 @@ public class test_j {
 		 System.out.println(i1==l1);
 		 
 		System.out.println (Math.random());
+		
+		String str= "navin";
+		String str1="naveen";
+		
+		String hh=str.concat(str1);
+		
+		System.out.println(hh);
 		 
 	}
 
